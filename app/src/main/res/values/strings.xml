@@ -1,0 +1,62 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--App Title-->
+    <string name="app_name">SurfSafe</string>
+
+    <!--App Subtitle-->
+    <string name="textViewDescription">Vuoi proteggere i tuoi dati online?\nSegui questi utili consigli</string>
+
+    <!--Tips Menu-->
+    <string name="buttonTipOne">#1</string>
+    <string name="buttonTipTwo">#2</string>
+    <string name="buttonTipThree">#3</string>
+    <string name="buttonTipFour">#4</string>
+    <string name="buttonTipFive">#5</string>
+    <string name="buttonTipOther">#&#8230;</string>
+    <string name="numberTipError">Consiglio <xliff:g id="numberTip" example="#1">%s</xliff:g> già aperto!</string>
+
+    <!--Tips Title&Description-->
+    <string name="textViewNumberTipZero">#0\nIntroduzione</string>
+    <string name="textViewNumberTipOne">#1\nGestione Password</string>
+    <string name="textViewNumberTipTwo">#2\nDownload di file</string>
+    <string name="textViewNumberTipThree">#3\nInformazioni personali</string>
+    <string name="textViewNumberTipFour">#4\nInternet Point &#38; Free Wifi</string>
+    <string name="textViewNumberTipFive">#5\nAggiornamento Software</string>
+    <string name="textViewNumberTipOther">#&#8230;\nTocca a te&#8230;</string>
+
+    <!--Tips Text&Image-->
+    <string name="textViewTipZero">Consigli utili per una sicurezza online efficace per evitare le trappole della rete, proteggendo i tuoi dati.\nSeleziona il consiglio da visualizzare tramite il menù soprastante e segui queste poche, ma semplici regole.</string>
+    <string name="textViewTipOne">Qualsiasi password può essere rubata, ma seguendo alcuni piccoli accorgimenti si riduce al minimo questo rischio.\nÈ consigliato utilizzare password differenti per ogni servizio a cui si è registrati (vedi sotto per generarne alcune). Non spaventatevi di non ricordarvi le diverse password; esistono degli appositi programmi, chiamati Password Manager (ad esempio KeePassX), che permettono di memorizzare tutte le vostre password e di accedere a questo \"database\" tramite un\'unica password, lunga e complessa.\nÈ consigliato cambiare molto frequentemente le proprie password e di non riutilizzare le precedenti; qualcuno potrebbe esserne già in possesso!\nNon trascrivete le password su fogli di carta poichè possono sempre essere lette da gente \"pericolosa\".\nInfine non condividere le proprie password con nessuno, diffidando da eventuali e-mail ad hoc.</string>
+    <string name="textViewTipTwo">Non aprite gli allegati non attesi, di qualunque tipo, chiunque ne sia il mittente,  anche se l\'antivirus li dichiara \"puliti\". Per esempio, gli autori dei virus spesso creano e-mail che fingono di provenire da Microsoft e dichiarano di contenere un allegato costituito da una patch di correzione per difendervi dall\'ennesimo virus, mentre è in realtà esso stesso un virus.\nÈ altamente consigliato tenere attiva la spunta di visualizzazione delle estensione e verificare ogni qualvolta si vuole eseguire un programma se l\'estensione del file è quella che ci si aspetta.</string>
+    <string name="textViewTipThree">È facilissimo creare una mail o una pagina Web che contiene un link ingannevole, che sembra rimandare a un sito regolare ma invece vi porta da tutt\'altra parte, ossia a un sito visivamente identico a quello autentico ma in realtà gestito da truffatori (ad esempio www.faceboook.com, con tre \"o\"). Questo sistema viene usato per commettere frodi, per esempio rubare password, codici di carta di credito, ecc&#8230; .\nQuindi attenzione sempre al sito che si sta visitando, controllando tramite la barra degli indirizzi la corretta trascrizione dell\'indirizzo. Ricorda che gli istituti bancari e le aziende serie non richiedono mai informazioni personali attraverso un messaggio di posta elettronica.</string>
+    <string name="textViewTipFour">Se proprio si deve usare un Internet point, tenere a mente che nessuna delle operazioni svolte sarà davvero \"privata\",  quindi bene non consultare dati sensibili, come l\'home banking.\nLa disponibilità di reti Wi-Fi pubbliche gratuite per i clienti in bar, hotel, centri commerciali, aeroporti e molti altri luoghi, consente di controllare con comodità la posta elettronica, di collegarsi ai siti di social network o di navigare sul Web quando si è fuori. Tuttavia, i cybercriminali spiano spesso le reti Wi-Fi pubbliche e intercettano i dati che vengono trasferiti attraverso la connessione. In questo modo, possono accedere alle credenziali bancarie, alle password degli account e ad altre preziose informazioni degli utenti.</string>
+    <string name="textViewTipFive">Ogni software house che si rispetti ha il proprio team specializzato in sicurezza informatica che lavora ogni giorno per migliorare standard e performance, e prevenire eventuali attacchi informatici.\nÈ quindi fondamentale, per quanto possa apparire noioso e fastidioso, aggiornare il software installato sui propri dispositivi e mantenere attiva la spunta agli aggiornamenti automatici nelle opzioni dei programmi, se presente.</string>
+    <string name="textViewTipOther">Ora tocca a te! Inviaci tramite il form sottostante la tua regola per stare al sicuro mentre navigi oppure chiedici delucidazioni sui consigli elencati in questa app. Ti risponderemo con i nostri suggerimenti per stare più \"tranquilli\" online.</string>
+    <string name="imageViewTip">Immagine descrizione consiglio</string>
+
+    <!--Password Generator-->
+    <string name="textViewPasswordGeneratorTitle">Generatore di password</string>
+    <string name="textViewLenght">Lunghezza password:</string>
+    <string name="editTextStartLenght">8</string>
+    <string name="checkBoxLetters">Includi lettere minuscole:</string>
+    <string name="checkBoxUpperLowerCase">Includi lettere maiuscole:</string>
+    <string name="checkBoxNumbers">Includi numeri:</string>
+    <string name="checkBoxSpecialCharacters">Includi caratteri speciali:</string>
+    <string name="textViewQuantity">Quantità:</string>
+    <string name="editTextStartQuantity">1</string>
+    <string name="buttonGeneratePassword">Genera</string>
+    <string name="textViewPasswords">Possibili password\n</string>
+    <string name="allCheckBoxError">Non hai selezionato alcuna opzione!</string>
+    <string name="upperLowerCaseError">Selezionare anche il campo \"<xliff:g id="field" example="Lettere">%s</xliff:g>\"</string>
+    <string name="lenghtError">La lunghezza deve essere compresa tra <xliff:g id="number" example="4">%d</xliff:g> e <xliff:g id="number" example="4">%d</xliff:g></string>
+    <string name="quantityError">La quantità deve essere compresa tra <xliff:g id="number" example="1">%d</xliff:g> e <xliff:g id="number" example="10">%d</xliff:g></string>
+
+    <!--Send Tips-->
+    <string name="textViewSendTipsTitle">Suggerimenti/Delucidazioni</string>
+    <string name="textViewName">Nome</string>
+    <string name="textViewMessage">Messaggio</string>
+    <string name="buttonSubmit">Invia</string>
+    <string name="messageSubject">SafeSurf - Suggerimenti/Delucidazioni - <xliff:g id="name" example="Giuseppe">%s</xliff:g></string>
+
+    <!--General Error-->
+    <string name="generalError">Campo \"<xliff:g id="field" example="Nome">%s</xliff:g>\" vuoto!</string>
+</resources>
